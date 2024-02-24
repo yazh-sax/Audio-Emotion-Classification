@@ -1,0 +1,3 @@
+audiolie_functional.py contains the function which runs the trained network on any audio file.
+To use, give it the path of the .wav file and it outputs a vector [pos, neutral, negative].
+The index with the greatest value is the prediction.
